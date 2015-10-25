@@ -1,0 +1,45 @@
+html, body, #wrapper {
+  height: 100%;
+  margin: 0;
+}
+
+#wrapper {
+  background-color: #1A796A;
+  color: #F9FCFB;
+  font-family: monaco, Consolas, 'Lucida Console', monospace;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+#about #gravatar, #about #name {
+  text-align: center;
+}
+
+#about h2 {
+  margin: 0;
+}
+
+p#gravatar {
+  margin: 0;
+}
+
+pre {
+  margin: 0;
+}
+
+#gravatar img {
+  border-radius: 50%;
+}
+
+a img {
+  width: 20px;
+}
